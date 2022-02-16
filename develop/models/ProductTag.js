@@ -21,12 +21,7 @@ ProductTag.init(
         key: "id"
       }
     },
-    // define category_name column
-    category_name: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-
+ 
     // define tag_id column
     tag_id: {
       type: DataTypes.INTEGER,
