@@ -1,11 +1,16 @@
-# e-commerce-back-end
+# E-Commerce Back End
 
-# Tech Blog
+## Overview
 
-Overview: 
+Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry.  In this project, I was tasked to build the back end for an e-commerce site by modifying starter code. In doing so I  configured a working Express.js API to use Sequelize to interact with a MySQL database.
 
 
 # Links
+ ## YouTube Link
+ https://youtu.be/WcYzRdlOab0
+
+ ## GitHub Repo
+ https://github.com/lindamart/e-commerce-back-end
 
 ## Table of Contents 
 
@@ -26,14 +31,30 @@ Overview:
 
 # Preview
 
-![](assets/images/login.jpg)
+![](assets/terminal.gif)
 
-![](assets/images/createPost.jpg)
+![](assets/insomniaFindAll.gif)
 
-![](assets/images/deleteEditPost.jpg)
+![](assets/insomniaDeleteLookup.gif)
 
 # Criteria
+```
+GIVEN a functional Express.js API
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+THEN I am able to connect to a database using Sequelize
 
+WHEN I enter schema and seed commands
+THEN a development database is created and is seeded with test data
+
+WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database
+
+WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+THEN the data for each of these routes is displayed in a formatted JSON
+
+WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+THEN I am able to successfully create, update, and delete data in my database
+```
 # Contact
 
 Contact me with any questions.
@@ -47,16 +68,11 @@ W3 Schools: https://www.w3schools.com/
 
 MDN Web Docs: https://developer.mozilla.org/en-US
 
-Google Fonts: https://fonts.google.com/
+ExpressJS: https://expressjs.com/
 
-npm MySql & Sequelize: https://www.npmjs.com/
+npm MySql: https://www.npmjs.com/
 
-Heroku: https://dashboard.heroku.com/apps
-
-Handlebars: https://handlebarsjs.com/
-
-# Author
-The author is a novice full-stack developer currently enrolled in the University of Pennsylvania Bootcamp.  With a background in Systems Assurance and Leadership, I am looking to move ahead in my field.
+Insomnia: https://docs.insomnia.rest/
 
 # License
 
